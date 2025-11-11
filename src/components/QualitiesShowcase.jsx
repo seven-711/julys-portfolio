@@ -128,7 +128,7 @@ export default function QualitiesShowcase() {
     <div className="w-full h-full">
       <VerticalLogoLoop 
         items={qualityItems}
-        speed={5}
+        speed={2}
         itemHeight={320}
         gap={24}
         className="h-full"
