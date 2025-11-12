@@ -94,15 +94,15 @@ export default function AboutPage() {
                 {/* Stats Grid */}
                 <div className="grid grid-cols-3 gap-4 mt-4">
                   <div className="glass-card p-2 rounded-2xl text-center">
-                    <div className="text-3xl font-bold text-cyan-400">50+</div>
+                    <div className="text-3xl font-bold text-cyan-400">5+</div>
                     <div className="text-sm text-gray-300 mt-2">Projects Done</div>
                   </div>
                   <div className="glass-card p-2 rounded-2xl text-center">
-                    <div className="text-3xl font-bold text-cyan-400">45+</div>
+                    <div className="text-3xl font-bold text-cyan-400">3+</div>
                     <div className="text-sm text-gray-300 mt-2">Happy Clients</div>
                   </div>
                   <div className="glass-card p-2 rounded-2xl text-center">
-                    <div className="text-3xl font-bold text-cyan-400">3+</div>
+                    <div className="text-3xl font-bold text-cyan-400">1+</div>
                     <div className="text-sm text-gray-300 mt-2">Years Experience</div>
                   </div>
                 </div>
