@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, input, textarea, button, select, a, p, h1, h2, h3, h4, h5, h6, span, div {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+:root{
+  --bg:#0b0d12; --panel:#11141b; --text:#e7ebf3; --muted:#a9b0bf; --brand:#6ea8fe; --brand2:#8b5cf6; --border:#1a1f2b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,body,#__next{height:100%}
+body{background:linear-gradient(180deg,#0b0d12,#0f1420 30%,#0b0d12);color:var(--text)}
+
+/* Utility container matching previous behavior */
+.container{ width:min(1100px,92%); margin-inline:auto; }
+
+/* Buttons (custom, not Tailwind-composed to avoid @apply lints) */
+.btn{ display:inline-block; padding:0.5rem 1rem; border-radius:0.75rem; color:#fff; text-decoration:none; background:linear-gradient(135deg,var(--brand),var(--brand2)); }
+.btn-secondary{ display:inline-block; padding:0.5rem 1rem; border-radius:0.75rem; color:var(--text); text-decoration:none; outline:1px solid var(--border); background:transparent; }
+
+/* Gradient text animation used by GradientText component */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient { animation: gradientShift 6s ease-in-out infinite; }
+
+/* BlurText animations */
+@keyframes blurInUp {
+  0% { opacity: 0; filter: blur(8px); transform: translateY(8px); }
+  100% { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+@keyframes blurInDown {
+  0% { opacity: 0; filter: blur(8px); transform: translateY(-8px); }
+  100% { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+
+/* ShinyText shimmer animation */
+@keyframes shimmer {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
