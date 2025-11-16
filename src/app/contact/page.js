@@ -241,7 +241,7 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Follow Me</h3>
               <div className="flex items-center space-x-4">
                 <a 
-                  href="https://facebook.com/yourprofile" 
+                  href="https://www.facebook.com/profile.php?id=61581118792267" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-slate-700/50 rounded-full text-gray-600 dark:text-gray-400 hover:bg-blue-500 hover:text-white transition-colors"
@@ -250,7 +250,7 @@ export default function Contact() {
                   <FaFacebook className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://instagram.com/yourprofile" 
+                  href="https://www.instagram.com/codex_machi1.0?igsh=bGJsMDdmdGljemR5" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-slate-700/50 rounded-full text-gray-600 dark:text-gray-400 hover:bg-pink-500 hover:text-white transition-colors"
@@ -259,7 +259,7 @@ export default function Contact() {
                   <FaInstagram className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://tiktok.com/@yourprofile" 
+                  href="https://www.tiktok.com/@julyfranzclaridad?_r=1&_t=ZS-91RcMKkvw0K" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-slate-700/50 rounded-full text-gray-600 dark:text-gray-400 hover:bg-black hover:text-white transition-colors"
@@ -268,7 +268,7 @@ export default function Contact() {
                   <FaTiktok className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://github.com/yourprofile" 
+                  href="https://github.com/seven-711" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-slate-700/50 rounded-full text-gray-600 dark:text-gray-400 hover:bg-gray-800 hover:text-white transition-colors"
@@ -277,7 +277,7 @@ export default function Contact() {
                   <FaGithub className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yourprofile" 
+                  href="https://www.linkedin.com/in/july-franz-claridad-6b98a1318/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-slate-700/50 rounded-full text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-colors"
