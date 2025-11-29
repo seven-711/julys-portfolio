@@ -39,25 +39,25 @@ const TESTIMONIALS = [
   {
     quote: "Working with July was an absolute pleasure. Their attention to detail and problem-solving skills are top-notch.",
     author: "ISIAH EMMANUEL CLOA",
-    role: "Project Manager at TechCorp",
+    role: "University Student",
     color: "blue"
   },
   {
     quote: "The quality of work delivered was exceptional. July consistently met deadlines and exceeded our expectations.",
-    author: "JEVER LICO",
-    role: "CTO at InnovateX",
+    author: "ARVIN CATIG",
+    role: "University Student",
     color: "purple"
   },
   {
     quote: "July's ability to understand complex requirements and turn them into elegant solutions is remarkable.",
-    author: "ALIBSAR CASIDAR",
-    role: "Product Lead at DesignHub",
+    author: "JUDE TENIO",
+    role: "University Student",
     color: "pink"
   },
   {
     quote: "July's communication and technical expertise made our project a huge success. Highly recommended!",
     author: "JASSEM RACMAN",
-    role: "Founder at StartupX",
+    role: "Univeristy Student",
     color: "green"
   }
 ];
